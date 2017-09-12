@@ -19,7 +19,7 @@ if($_POST) {
         "URL"=>$url
     );
     if ($PRODUCT_ID = $el->Add($fields)) {
-    } else {
+    } else {ddd
         echo "Error: " . $el->LAST_ERROR;
     }
 }
